@@ -38,6 +38,13 @@
                 transition: height, .5s ease;
             }
 
+            
+            @media (max-width: 768px) {
+                h5 {
+                    max-width: 250px;
+                }
+            }
+
             &--is-open {
                 .faq__questions__item__questions::after {
                     content: '-';
